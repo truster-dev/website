@@ -1,5 +1,5 @@
-# Easy OIDC website
+# Truster website
 
-This repository contains the source code for <https://easy-oidc.dev>
+This repository contains the source code for <https://truster.dev>
 
-See also: <https://github.com/easy-oidc/easy-oidc>
+See also: <https://github.com/truster-dev/truster>

@@ -1,4 +1,4 @@
-module github.com/easy-oidc/website
+module github.com/truster-dev/website
 
 go 1.23.1
 

@@ -1,6 +1,6 @@
-baseURL: https://easy-oidc.dev/
+baseURL: https://truster.dev/
 languageCode: en-us
-title: Easy OIDC
+title: Truster
 
 module:
   imports:
@@ -8,9 +8,11 @@ module:
   mounts:
     - source: content
       target: content
-    - source: ../easy-oidc/docs
+    - source: static
+      target: static
+    - source: ../truster/docs
       target: content/docs
-    - source: ../easy-oidc/schema
+    - source: ../truster/schema
       target: static/schema
 
 markup:
@@ -19,7 +21,7 @@ markup:
       unsafe: true
 
 params:
-  description: Easy OIDC is a minimal OIDC provider that lets your team authenticate to Kubernetes clusters using their existing Google or GitHub accounts.
+  description: Truster is a minimal OIDC provider that lets your team authenticate to Kubernetes clusters using their existing Google or GitHub accounts.
   externalLinkDecoration: true
   search:
     enable: true
@@ -31,10 +33,12 @@ params:
       scriptName: "script.js"
   navbar:
     displayLogo: true
+    displayTitle: false
     logo:
-      path: easy-oidc-icon.svg
-      width: 30
-      height: 30
+      path: truster-logo.svg
+      dark: truster-logo-dark.svg
+      width: 160
+      height: 46
   customCSS:
     - css/custom.css
   footer:
@@ -53,12 +57,12 @@ menu:
         icon: chat
     - name: GitHub
       weight: 10
-      url: "https://github.com/easy-oidc/easy-oidc"
+      url: "https://github.com/truster-dev/truster"
       params:
         icon: github
   sidebar:
     - name: GitHub
-      url: "https://github.com/easy-oidc/easy-oidc"
+      url: "https://github.com/truster-dev/truster"
       weight: 1
 
 outputs:

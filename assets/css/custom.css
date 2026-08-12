@@ -2,3 +2,21 @@
 h1.hx\:text-center {
   display: none;
 }
+
+.truster-wordmark {
+  display: block;
+  width: min(100%, 640px);
+  margin: 0 auto;
+}
+
+.truster-wordmark-dark {
+  display: none;
+}
+
+html.dark .truster-wordmark-light {
+  display: none;
+}
+
+html.dark .truster-wordmark-dark {
+  display: block;
+}
