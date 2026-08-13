@@ -37,7 +37,7 @@ params:
     logo:
       path: truster-logo.svg
       dark: truster-logo-dark.svg
-      width: 160
+      width: 110
       height: 46
   customCSS:
     - css/custom.css
